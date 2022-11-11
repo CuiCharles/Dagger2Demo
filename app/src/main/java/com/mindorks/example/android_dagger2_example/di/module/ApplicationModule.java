@@ -47,6 +47,8 @@ public class ApplicationModule {
         return 2;
     }
 
+
+
     @Provides
     SharedPreferences provideSharedPrefs() {
         return mApplication.getSharedPreferences("demo-prefs", Context.MODE_PRIVATE);
